@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background: #8E2DE2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4A00E0,
+    #8E2DE2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4A00E0,
+    #8E2DE2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  color: #bb1142;
+  padding-left: 27%;
+  margin-top: 20%;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 27%;
+}
+
+#container-kapsayici {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 500px;
+}
+
+.btn {
+  background-color: #b91d73;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  color: pink;
+}
+
+#btns {
+  margin-top: 5%;
+  margin-left: 34%;
+  display: block;
+}
