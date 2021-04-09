@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+#container-kapsayici {
+  height: 100%;
+  width: 100%;
+}
+
+.header-baslik {
+  background-color: white;
+  height: 70px;
+  padding-left: 20px;
+}
+
+.logo {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.menu {
+  float: right;
+  color: black;
+  font-size: 3vh;
+  margin-right: 20%;
+
+  margin-top: 1.5%;
+}
+
+.menu a {
+  padding-left: 10vh;
+  color: black;
+  margin-right: 6vh;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: pink;
+}
+
+h1 {
+  color: #c51d4a;
+  font-size: 70px;
+}
+
+#sol {
+  float: left;
+  margin-top: 10vh;
+  padding-left: 80px;
+}
+
+.laptop-resim {
+  height: 70vh;
+  margin-left: 10vh;
+}
+
+#join-katil {
+  margin-top: 5px;
+}
+
+#content-icerik-join-katil {
+  height: 300px;
+  margin: 30px;
+  padding: 20px;
+  background-color: #f0f8ff;
+  margin-bottom: 10%;
+}
+
+.content-icerik-join-katil-image-resim {
+  border-radius: 10px;
+  float: right;
+  padding-right: 5%;
+  margin-top: -5%;
+  height: 30vh;
+}
+
+.btn {
+  background-color: #004881;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover {
+  color: pink;
+}
+
+#footer-altlik {
+  background-color: #f5f6f9;
+  height: 10vh;
+  text-align: center;
+  padding-top: 5vh;
+}
+#content-doc-icerik {
+  padding: 80px;
+}
