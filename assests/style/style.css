@@ -98,3 +98,13 @@ h1 {
 #content-doc-icerik {
   padding: 80px;
 }
+
+
+@media screen and (max-width: 800px) {
+  .laptop-resim {
+    width: 80%; 
+  }
+  .content-icerik-join-katil-image-resim {
+    display:none;
+  }
+}
